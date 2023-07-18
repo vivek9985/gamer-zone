@@ -198,3 +198,35 @@ nav ul li a img {
     font-weight: 600;
 }
 /* End */
+
+/* Online games section */
+.online-games-section {
+    width: 85%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.online-games-title {
+    text-align: center;
+}
+.online-games-title p {
+    margin: 10px 0 50px 0;
+}
+.online-games-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.online-games-items div {
+    width: 23%;
+}
+.online-games-items div img {
+    width: 100%;
+}
+.online-games-items div p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 15px;
+}
+/* End */
