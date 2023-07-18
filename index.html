@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/Frame.png" type="image/x-icon">
     <title>Gaming Landing Page Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
 </head>
@@ -12,23 +13,42 @@
     <header>
         <!-- Header nav secton -->
         <nav>
-            <div>
-                <img src="./images/Frame.png" alt="">
-                <h2><span class="pink">G</span>amer</h2>
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="./images/Frame.png" alt="">
+                    <h2><span class="pink">G</span>amer</h2>
+                </div>
+                <ul class="menu">
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Developers</a></li>
+                    <li class="follow-us">
+                        <a href="">Follow Us On</a>
+                        <a href=""><img src="./images/youtube.png" alt=""></a>
+                        <a href=""><img src="./images/tik-tok.png" alt=""></a>
+                    </li>
+                </ul>
             </div>
-            <ul class="menu">
-                <li><a href="">About Us</a></li>
-                <li><a href="">Developers</a></li>
-                <li class="follow-us">
-                    <a href="">Follow Us On</a>
-                    <a href=""><img src="./images/youtube.png" alt=""></a>
-                    <a href=""><img src="./images/tik-tok.png" alt=""></a>
-                </li>
-            </ul>
         </nav>
         <!-- Header main section -->
         <div class="header-main-section">
-
+            <div class="header-left-column">
+                <h2>Play Like The</h2>
+                <h1>G.O.A.T.</h1>
+                <ul>
+                    <li><i class="fa fa-play"></i>1-Click instant play</li>
+                    <li><i class="fa fa-download"></i>No Download</li>
+                    <li><i class="fa fa-users"></i>1000s of supported online games</li>
+                </ul>
+                <div>
+                    <button class="sign-in-btn primary-btn">Sign In</button>
+                    <button class="primary-btn secondery-btn">Go Rogue</button>
+                </div>
+            </div>
+            <div class="header-right-column">
+                <div>
+                    <img src="./images/Group 18.png" alt="">
+                </div>
+            </div>
         </div>      
     </header>
     
