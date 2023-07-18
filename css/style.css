@@ -22,21 +22,35 @@ body {
     cursor: pointer;
 }
 .secondery-btn {
-    background-color: aqua;
+    background-color: #4EC5F7;
 }
 .pink {
     color: #FF42A5;
+}
+.section-title {
+    font-size: 40px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section-desc {
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
 }
 /* End */
 
 /* Header section style start */
 header nav {
-    box-shadow: 1px 1px 10px rgb(233, 228, 228);
+    box-shadow: 1px 1px 10px rgb(244, 232, 232);
 }
 header nav .nav-container {
     width: 85%;
     margin: 0 auto;
-    padding: 30px 0;
+    padding: 25px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -143,12 +157,44 @@ nav ul li a img {
 }
 .header-right-column {
     width: 50%;
-    padding-right: 100px;
+    padding: 10px 100px 0 0;
 }
 .header-right-column img {
     width: 100%;
 }
+/* End */
 
-
-
+/* We are gamer section */
+.we-are-gamer-section {
+    background-color: rgba(255, 66, 165, 0.03);
+}
+.we-are-gamer-container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+}
+.we-are-gamer-left-column {
+    width: 60%;
+}
+.we-are-gamer-left-column img {
+    width: 100%;
+}
+.we-are-gamer-right-column {
+    width: 40%;
+    text-align: right;
+}
+.we-are-gamer-right-column p {
+    margin: 25px 0;
+}
+.we-are-gamer-right-column .our-propose {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.we-are-gamer-right-column h3 {
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 600;
+}
 /* End */
