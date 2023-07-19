@@ -110,6 +110,7 @@ nav ul li a img {
 }
 .header-main-section {
     display: flex;
+    margin-bottom: 50px;
 }
 .header-left-column {
     width: 50%;
