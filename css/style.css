@@ -12,6 +12,7 @@ body {
 /* Reusable style start */
 .primary-btn {
     padding: 18px 36px;
+    margin: 10px 0;
     background-color: #FF42A5;
     border: none;
     border-radius: 50px;
