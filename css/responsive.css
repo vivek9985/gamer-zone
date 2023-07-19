@@ -71,4 +71,18 @@
         width: 80%;
         margin: 0 auto;
     }
+    .game-type-container {
+        width: 100%;
+    }
+    .game-items {
+        margin: 8px 7px;
+        padding: 3px;
+    }
+    .game-items img {
+        width: 30px;
+    }
+    .game-items h4 {
+        font-size: 13px;
+        padding: 0 5px;
+    }
 }
