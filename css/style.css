@@ -186,7 +186,7 @@ nav ul li a img {
     text-align: right;
 }
 .we-are-gamer-right-column p {
-    margin: 25px 0;
+    margin: 40px 0;
 }
 .we-are-gamer-right-column .our-propose {
     font-size: 20px;
@@ -207,6 +207,12 @@ nav ul li a img {
 }
 .online-games-title {
     text-align: center;
+}
+.online-games-title span {
+    background: linear-gradient(180deg, #000000 0%, #000000 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .online-games-title p {
     margin: 10px 0 50px 0;

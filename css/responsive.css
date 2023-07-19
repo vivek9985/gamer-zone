@@ -34,4 +34,31 @@
     .header-right-column {
        padding: 50px 10px;
     }
+    .we-are-gamer-container {
+        flex-direction: column;
+    }
+    .we-are-gamer-left-column, .we-are-gamer-right-column {
+        width: 95%;
+    }
+    .we-are-gamer-right-column {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .online-games-section {
+        width: 80%;
+    }
+    .online-games-title span {
+        display: block;
+    }
+    .online-games-items {
+        flex-direction: column;
+    }
+    .online-games-items .items {
+        margin: 10px auto 40px auto;
+        text-align: center;
+    }
+    .online-games-items div {
+        width: 80%;
+        margin: 0 auto;
+    }
 }
