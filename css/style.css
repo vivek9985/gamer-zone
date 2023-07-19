@@ -229,6 +229,7 @@ nav ul li a img {
     background-size: cover;
     border: 2px solid transparent;
     border-radius: 20px;
+    cursor: pointer;
 }
 .online-games-items div .sub-items:hover {
     border: 2px solid #FF42A5;
@@ -255,7 +256,7 @@ nav ul li a img {
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 0;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
 }
 .online-games-items div .sub-items:hover .item-content{
     opacity: 1;
@@ -271,8 +272,6 @@ nav ul li a img {
     font-size: 18px;
     font-weight: 600;
 }
-
-
 .online-games-items div p {
     font-size: 15px;
     font-weight: 500;
