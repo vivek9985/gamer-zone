@@ -165,7 +165,15 @@ nav ul li a img {
 }
 .header-right-column {
     width: 50%;
-    padding: 10px 100px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 90px 0 0;
+}
+.header-right-column div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .header-right-column img {
     width: 100%;
@@ -194,7 +202,7 @@ nav ul li a img {
     text-align: right;
 }
 .we-are-gamer-right-column p {
-    margin: 40px 0;
+    margin: 40px 0 20px 0;
 }
 .we-are-gamer-right-column .our-propose {
     font-size: 20px;
@@ -211,7 +219,7 @@ nav ul li a img {
 .online-games-section {
     width: 85%;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 100px 0 0 0;
 }
 .online-games-title {
     text-align: center;
@@ -310,7 +318,6 @@ nav ul li a img {
     flex-direction: column;
     align-items: end;
     justify-content: center;
-    margin-top: 50px;
 }
 .play-game-container .item-1 .play-game-left-column p {
     width: 80%;
@@ -332,12 +339,6 @@ nav ul li a img {
     bottom: -60px;
     left: 100px;
 }
-
-
-
-
-
-
 .play-game-container .item-2 .play-game-left-column {
     width: 60%;
     position: relative;
@@ -443,7 +444,7 @@ footer ul li {
     color: #FFF;
     font-size: 15px;
     font-weight: 600;
-    padding: 10px 10px;
+    padding: 10px 0;
 }
 .footer-sub-menu li a{
     color: rgba(255, 255, 255, 0.60);
