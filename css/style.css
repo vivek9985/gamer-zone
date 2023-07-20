@@ -149,6 +149,9 @@ nav ul li a img {
     font-size: 16px;
     color: #FF42A5;
 }
+.header-left-column ul li:nth-child(2) i{
+    margin-right: 14px;
+}
 .header-left-column ul li:nth-child(1) i {
     border: 1px solid #0B0223;
     border-radius: 100px;
@@ -262,7 +265,6 @@ nav ul li a img {
 .online-games-items div .sub-item-4 {
     background-image: url(../images/Rectangle\ 6.png);
 }
-
 .online-games-items div .sub-items .item-content {
     width: 100%;
     height: 100%;
@@ -270,7 +272,7 @@ nav ul li a img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     opacity: 0;
     transition: all 0.3s ease;
 }
@@ -494,19 +496,18 @@ footer ul li {
     font-weight: 600;
     padding: 10px 0;
 }
-.footer-sub-menu li a{
-    color: rgba(255, 255, 255, 0.60);
-    font-size: 14px;
-    font-weight: 500;
-}
 .icon-menu li a {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .icon-menu li a img {
-    width: 23px;
-    height: 24px;
+    width: 20px;
+}
+.footer-sub-menu li a{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 13px;
+    font-weight: 500;
 }
 footer h5 {
     color: rgba(255, 255, 255, 0.60);
