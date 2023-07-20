@@ -246,7 +246,7 @@ nav ul li a img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border: 2px solid transparent;
+    border: 2px solid #fff;
     border-radius: 20px;
     cursor: pointer;
 }
